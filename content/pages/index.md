@@ -1,4 +1,4 @@
 ---
-title: This is my post test
+title: This is my post
 ---
 
