@@ -5,10 +5,10 @@
   webhook_url:
   sections:
     - type: directory
-      path: / # replace this with the relative path to your content section
-      label: Index
+      path: content/pages  # replace this with the relative path to your content section
+      label: Pages
       create: documents
-      match: "**/*.md"
+      match: "*.md"
       new_doc_ext: md
       templates:
         - index # replace this with your template filename name

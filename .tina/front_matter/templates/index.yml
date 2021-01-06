@@ -1,5 +1,5 @@
 ---
-  label: Post
+  label: Index
   hide_body: false
   display_field: title
   fields:
@@ -9,4 +9,4 @@
         required: false
       label: Title
   pages:
-    - /index.md # This keeps reference to all the pages using this template
+    - content/pages/index.md # This keeps reference to all the pages using this template
