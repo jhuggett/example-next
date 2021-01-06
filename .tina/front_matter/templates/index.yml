@@ -1,0 +1,12 @@
+---
+  label: Post
+  hide_body: false
+  display_field: title
+  fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+  pages:
+    - /index.md # This keeps reference to all the pages using this template
